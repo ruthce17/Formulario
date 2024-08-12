@@ -1,0 +1,49 @@
+body{
+    background: hsla(145, 83%, 74%, 1);
+    background: linear-gradient(90deg, hsla(145, 83%, 74%, 1) 0%, hsla(204, 77%, 76%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(145, 83%, 74%, 1) 0%, hsla(204, 77%, 76%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(145, 83%, 74%, 1) 0%, hsla(204, 77%, 76%, 1) 100%);
+}
+
+.form-container{
+    margin: 0% 24% 0% 24%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    background-color: transparent;
+}
+
+.form-label{
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+h2{
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#cpf-erro-message{
+    color: red; 
+    display: none;
+    font-size: 10px;
+}
+
+#email-erro-message {
+    color: red;
+    display: none;
+    font-size: 11px;
+}
+
+.btn.btn-primary{
+    background: rgb(46, 66, 245) ;
+    cursor: pointer;
+}
+
+.btn.btn-primary:hover{
+    border: 2px solid rgb(0, 204, 255);
+    box-shadow: 0 0 20px rgb(0, 117, 212);
+}
